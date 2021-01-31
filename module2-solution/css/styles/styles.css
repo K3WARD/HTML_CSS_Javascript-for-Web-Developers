@@ -9,7 +9,7 @@ html
 
 body {
 font: Times New Roman, Times, serif;
-background: #FFFFFF;
+background: #B0E0E6;
 color: #000000; 
 }
 
@@ -22,11 +22,11 @@ font-size: 200%
 }
 
 Section {
-  background: Grey;
+  background: #F5FFFA;
   border: 1px solid black;
   height: 100%;
   font-size: 120%;
-  margin: 15px;
+  margin: 15px 15px 15px 15px;
   
   
 }
