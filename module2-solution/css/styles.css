@@ -1,0 +1,104 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+font: Times New Roman, Times, serif;
+background: #FFFFFF;
+color: #000000; 
+}
+
+h1 {
+text-align: center;
+margin-bottom: 25px;
+margin-top: 15px; 
+font-size: 200%  
+  
+}
+
+Section {
+  background: Grey;
+  border: 1px solid black;
+  height: 100%;
+  font-size: 120%;
+  margin: 15px;
+  
+  
+}
+
+h2 {
+  background: #FA8072;
+  font-size: 120%;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  float: right;
+  width: 120px;
+  padding:  0px 15px 0px 15px;
+  text-align: center;
+  
+  
+}
+
+h3 {
+  background: #FF0000;
+  font-size: 120%;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  float: right;
+  width: 120px;
+  padding:  0px 15px 0px 15px;
+  text-align: center;
+}
+
+h4 {
+  background: #EEE8AA;
+  font-size: 120%;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  float: right;
+  width: 120px;
+  padding:  0px 15px 0px 15px;  
+  text-align: center;
+}
+
+h2.absolute {
+  position: absolute;
+ }
+
+p {
+ padding: 40px 15px 15px 15px;  
+}
+
+@media (min-width: 992px){
+		.col-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 991px){
+		.col-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.col-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	
+	@media (max-width: 767px){
+		.col-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
